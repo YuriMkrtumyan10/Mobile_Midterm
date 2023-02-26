@@ -15,7 +15,10 @@ class HTP {
         tower(n - 1, middleRod, tailRod, headRod)
     }
 
-    fun main(args: Array<String>) {
-       tower(3, 1, 2, 3)
-    }
+  
+}
+
+fun main(args: Array<String>) {
+    val htp = HTP()
+    htp.tower(3, 1, 2, 3)
 }
